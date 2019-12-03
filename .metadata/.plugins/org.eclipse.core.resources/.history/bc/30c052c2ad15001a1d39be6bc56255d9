@@ -1,0 +1,13 @@
+package lpr2_4;
+import java.lang.math;
+public class Application1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double a=0.7, b=0.07, x=0.5, R, S;
+R = Sqr(x)*(x+1)/b - Sqr(Sin(x+a));
+
+System.out.println("R="+R);
+	}
+
+}

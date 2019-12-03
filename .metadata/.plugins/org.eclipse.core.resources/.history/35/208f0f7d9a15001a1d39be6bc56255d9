@@ -1,0 +1,40 @@
+package probnik;
+
+import java.util.Scanner;
+public class probnik {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+int m=100;
+double ft, inch, yard;
+inch=m/2.54;
+ft=m/0.305;
+yard=m/91.44;
+
+System.out.printf("ft=%.2f \n",ft);
+System.out.printf("inch=%.2f \n",inch);
+System.out.printf("yard=%.2f \n",yard);
+
+int summa=1000;
+double zp,nds;
+nds=summa*20/100;
+zp = summa-nds;
+System.out.printf("zp=%.2f",zp);
+
+//int total, score; 
+//float percentage;
+//Scanner inputNumScanner = new Scanner(System.in);
+//
+//System.out.println("Enter the total, or max, score: ");       
+//total = inputNumScanner.nextInt();
+//
+//System.out.println("Enter the score obtained: ");
+//score = inputNumScanner.nextInt();
+//
+//percentage = (total * 100/ score);
+//
+//System.out.println("The percentage is = " + percentage + " %");
+	}
+
+}

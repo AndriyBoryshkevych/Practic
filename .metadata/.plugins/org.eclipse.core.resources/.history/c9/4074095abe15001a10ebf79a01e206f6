@@ -1,0 +1,13 @@
+package lpr2_4;
+
+public class Application3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.printf("Введіть номер, що відповідає формі кімнати: \n 1-трикутник \n 2-прямокутник \n 3-коло");
+		int number_room;
+	Scanner	in =new Scanner(System.in);
+	}
+
+}

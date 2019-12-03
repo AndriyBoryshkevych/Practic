@@ -1,0 +1,16 @@
+package proba;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("test");
+long x=32894123456789l;
+System.out.println("x="+x);
+int x = -1;
+int y = -x;
+
+System.out.println(x);
+	}
+
+}

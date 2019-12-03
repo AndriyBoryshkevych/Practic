@@ -1,0 +1,21 @@
+package lpr2_4;
+import java.util.Scanner;
+public class lpr_scanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b,c;
+
+Scanner in = new Scanner(System.in);
+System.out.println("a=");
+a=in.nextInt();
+System.out.println("b=");
+b=in.nextInt();
+System.out.println("c=");
+c=in.nextInt();
+
+
+
+	}
+
+}

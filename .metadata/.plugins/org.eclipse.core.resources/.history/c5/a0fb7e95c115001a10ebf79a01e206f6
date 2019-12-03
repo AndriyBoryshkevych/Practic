@@ -1,0 +1,43 @@
+package lpr2_4;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Application3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.printf("Введіть номер, що відповідає формі кімнати: \n 1-трикутник \n 2-прямокутник \n 3-коло \n");
+		int number_room, a, b, c;
+		double square, p;
+		Scanner in = new Scanner(System.in);
+		number_room = in.nextInt();
+		switch (number_room) {
+		case 1: { int a, b, c;
+			System.out.println("Веддіть три сторони трукутника \n");
+			a = in.nextInt();
+			b = in.nextInt();
+			c = in.nextInt();
+			p = (a + b + c);
+			square = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+			System.out.println("Площа трикутної кімнати:" + square);
+			break;
+		}
+		case 2: {int a, b;
+			System.out.println("Веддіть дві сторони прямокутника \n");
+			a = in.nextInt();
+			b = in.nextInt();
+			System.out.println("Площа прямокутниої кімнати:" + a * b);
+			break;
+		}
+		case 3: {int r;
+			System.out.println("Веддіть радіус кола \n");
+			r = in.nextInt();
+			System.out.println("Площа круглої кімнати:" + Math.PI * Math.pow(r, 2));
+
+		}
+		}
+	}
+
+}
